@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+
+    <input type="text" , id="newItem" , placeholder="Enter New Task" , />
+    <select id="priority">
+      <option value="" disabled selected>Priority</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select>
+    <button id="add">Add</button>
+    <button id="clearDone">Clear Done items</button>
+    <br />
+
+    <div id="high">finish by today</div>
+    <div id="medium">atleast start today</div>
+    <div id="low">can be delayed</div>
+
+    <script src="zen.js"></script>
+  </body>
+</html>

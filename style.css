@@ -1,0 +1,9 @@
+* {
+  background-color: lavender;
+}
+
+#high,
+#medium,
+#low {
+  height: 200px;
+}
